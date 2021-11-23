@@ -69,3 +69,43 @@ body {
     font-size: 20px;
     transition: all .3s ease-in-out;
   }
+
+  table {
+    background-color: lavenderblush;
+  }
+
+th #time {
+  background-color: navy;
+  color: white;
+}
+
+.time {
+    color: white;
+    background-color: navy;
+  }
+
+head {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: navy;
+}
+
+th {
+  text-align: center;
+}
+
+table.table-bordered{
+  border:2px solid white;
+  margin-top:20px;
+}
+table.table-bordered > thead > tr > th{
+  border:2px solid white;
+}
+table.table-bordered > tbody > tr > td{
+  border:2px solid white;
+}
+
+.btn {
+  background-color: #01425e;
+  color: white;
+}
