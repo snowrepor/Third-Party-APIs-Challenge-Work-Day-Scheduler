@@ -28,11 +28,74 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container">
-      <!-- Timeblocks go here -->
-    </div>
 
+    <div class="container">
+      <table class="table table-bordered">
+        <!-- Columns header -->
+        <thead>
+          <tr class="header">
+            <th scope="col" id="timerHeader">TIME</th>
+            <th scope="col" id="taskHeader" class="col-6">TASK</th>
+            <th scope="col" id="saveHeader">SAVE</th>
+          </tr>
+        </thead>
+        <!-- Line for time slots 9AM to 5PM -->
+        <tbody>
+          <tr>
+            <th scope="row" class="time">9AM</th>
+            <td><input type="text" class="form-control"></td>
+            <td><button type="button" class="btn"><i class="fas fa-lock" aria-hidden="true"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row" class="time">10AM</th>
+            <td><input type="text" class="form-control"></td>
+            <td><button type="button" class="btn"><i class="fas fa-lock" aria-hidden="true"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row" class="time">11AM</th>
+            <td><input type="text" class="form-control"></td>
+            <td><button type="button" class="btn"><i class="fas fa-lock" aria-hidden="true"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row" class="time">12PM</th>
+            <td><input type="text" class="form-control"></td>
+            <td><button type="button" class="btn"><i class="fas fa-lock" aria-hidden="true"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row" class="time">1PM</th>
+            <td><input type="text" class="form-control"></td>
+            <td><button type="button" class="btn"><i class="fas fa-lock" aria-hidden="true"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row" class="time">2PM</th>
+            <td><input type="text" class="form-control"></td>
+            <td><button type="button" class="btn"><i class="fas fa-lock" aria-hidden="true"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row" class="time">3PM</th>
+            <td><input type="text" class="form-control"></td>
+            <td><button type="button" class="btn"><i class="fas fa-lock" aria-hidden="true"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row" class="time">4PM</th>
+            <td><input type="text" class="form-control"></td>
+            <td><button type="button" class="btn"><i class="fas fa-lock" aria-hidden="true"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row" class="time">5PM</th>
+            <td><input type="text" class="form-control"></td>
+            <td><button type="button" class="btn"><i class="fas fa-lock" aria-hidden="true"></i></button></td>
+          </tr>
+        </tbody>
+      </table>      
+      
+    </div>
+    <!-- JavaScript and jQuery -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <!-- Add script -->
+
+
+    
   </body>
 </html>
