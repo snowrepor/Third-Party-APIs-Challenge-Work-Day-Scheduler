@@ -71,7 +71,7 @@ body {
   }
 
   table {
-    background-color: lavenderblush;
+    background-color: rgb(240, 253, 255);
   }
 
 th #time {
@@ -109,3 +109,9 @@ table.table-bordered > tbody > tr > td{
   background-color: #01425e;
   color: white;
 }
+
+#currentDay {
+  color:  rgb(240, 253, 255);
+  size: 30px;
+  font-weight: bold;
+  }
