@@ -45,7 +45,7 @@ Red: The current hour.
 
 Green: Future hours.
 
-![nav-menu](./images/capture3.JPG?raw=true "Navigational Menu")
+![nav-menu](./images/Capture3.JPG?raw=true "Navigational Menu")
 
 Moment.js, jQuery, JavaScript, Css and, HTML used for this deployment.
 
