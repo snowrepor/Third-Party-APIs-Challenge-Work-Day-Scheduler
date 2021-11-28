@@ -1,37 +1,54 @@
-# Third-Party-APIs-Challenge-Work-Day-Scheduler
+# Work day scheduler: Challenge 5
+1. [ Description. ](#desc)
+2. [ See the Work day scheduler. ](#web-address)
+3. [ How to use the Work day scheduler. ](#usage)
 
-User Story.
+<a name="desc"></a>
+## 1. Description
 
-AS AN employee with a busy schedule.
+Work day scheduler has:
 
-I WANT to add important events to a daily planner.
+This is a calendar application that allows the user to save tasks for each specific hour of the current work day.
 
-SO THAT I can manage my time effectively.
+### See the Work day scheduler.
 
-Acceptance Criteria.
+Here is an image of the Work day scheduler:
 
-GIVEN I am using a daily planner to create a schedule.
+![Top-Page-Area](./images/demo.gif)
+<!-- Demo image -->
 
-WHEN I open the planner.
+<a name="web-address"></a>
+## 2. See the Work day scheduler deployed!
 
-THEN the current day is displayed at the top of the calendar.
+### Click or Copy and Paste the link below into preferred browser to see the full Work day scheduler! 
 
-WHEN I scroll down.
+https://snowrepor.github.io/Third-Party-APIs-Challenge-Work-Day-Scheduler/
 
-THEN I am presented with time blocks for standard business hours.
+<a name="usage"></a>
+## 3. Sample of the Work day scheduler.
 
-WHEN I view the time blocks for that day.
+### User view of the Work day scheduler.
 
-THEN each time block is color-coded to indicate whether it is in the past, present, or future.
+The user types in the task they would like to complete in the row with the relevant hour and clicks the save button on the far right. All tasks that are saved are stored locally and will remain in the text box until cleared.
 
-WHEN I click into a time block.
+![nav-menu](./images/Capture1.JPG?raw=true "Navigational Menu")
 
-THEN I can enter an event.
+The current date and time are dynamically updated at the top using Moment.js. Additionally, each row is dynamically updated by color based on the current time as follows.
 
-WHEN I click the save button for that time block.
+![nav-menu](./images/Capture2.JPG?raw=true "Navigational Menu")
 
-THEN the text for that event is saved in local storage.
+Color code for the scheduler.
 
-WHEN I refresh the page.
+Grey: Past hours of the day no longer available.
 
-THEN the saved events persist.
+Red: The current hour.
+
+Green: Future hours.
+
+![nav-menu](./images/capture3.JPG?raw=true "Navigational Menu")
+
+Moment.js, jQuery, JavaScript, Css and, HTML used for this deployment.
+
+<a name="Built By"></a>
+## 4. Contributors 
+Ben Miller, W3schools, Stack Overflow, Slack study group, Boot camp office hours, YouTube (various unlicensed), Discord and, Reddit.
